@@ -1,1 +1,0 @@
-domain_name = "dev.app.scoutomt.com"
