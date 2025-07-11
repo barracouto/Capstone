@@ -1,9 +1,0 @@
-prod_vpc_cidr            = "10.0.2.0/24"
-dev_vpc_cidr             = "10.0.1.0/24"
-shared_services_vpc_cidr = "10.0.30.0/24"
-vpn_cidr                 = "192.168.86.0/24"
-networking_vpc_cidr      = "10.0.20.0/24"
-
-
-gwlbe_endpoint_az1 = "vpce-0498c8a8747beaab5"
-gwlbe_endpoint_az2 = "vpce-0323009900173f82b"
