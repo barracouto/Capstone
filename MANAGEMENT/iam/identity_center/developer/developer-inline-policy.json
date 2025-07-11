@@ -1,0 +1,28 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ec2:*",
+        "elasticloadbalancing:*",
+        "autoscaling:*",
+        "vpc:*",
+        "s3:*",
+        "logs:*",
+        "cloudwatch:*",
+        "cloudtrail:DescribeTrails",
+        "cloudtrail:GetTrailStatus",
+        "cloudtrail:LookupEvents",
+        "iam:Get*",
+        "iam:List*",
+        "cloudformation:*",
+        "ssm:*",
+        "lambda:*",
+        "tag:GetResources",
+        "resource-groups:*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
